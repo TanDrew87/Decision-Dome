@@ -4,14 +4,16 @@
 
 ## Table of Contents
 1. [Client Requirements](#client-requirements)
-2. [Specifications](#specs)
-3. [Technologies](#techs)
-4. [Coding Languages](#code)
+2. [Specifications](#specifications)
+3. [Technologies](#technologies)
+4. [Coding Languages](#coding-languages)
 5. [Collaboration](#collaboration) 
 
+<a name="client-requirements"></a>
 ## Client Requirements
 "I want a web application that lets me spin a wheel, roll a die, flip a coin, and pick from a deck of cards so that I can make choices from certain numbers of items. For example, if I want to choose between what meat to buy for dinner (beef, pork, chicken, fish), I can input them into a list, spin the wheel, and the wheel can choose one of the choices and make the decision for me. Any other additional decision maker is optional but very much appreciated."
 
+<a name="specifications"></a>
 ## Specifications
 - Home Page: Main page of the website which contains links to all other pages, has the page name, and brief information. The name/logo of the page should always be present on all pages and should lead back to the home page when clicked on.
 - About Page: This page has full information about this website. It can be either on its own page or be a part of the home page.
@@ -22,14 +24,17 @@
 - Wheel Spin: This page asks the user to input a list of items. The user can then spin the wheel and the wheel will randomly stop on an item. The wheel should have a set of colors for each section. 
 - Deck of Cards: This page functions similarly to the Wheel Spinner in that an item is randomly chosen from a list of items, but the difference is that after the card has been selected, that card is removed from the list. The user can choose to either keep it to the side, put the card back into the deck, or discard it.
 
+<a name="technologies"></a>
 ## Technologies
 - Visual Studio Code: Where the coding takes place.
 - Paint.NET: Where logos and icons are drawn.
 
+<a name="coding-languages"></a>
 ## Coding Languages
 - HTML
 - CSS
 
+<a name="collaboration"></a>
 ## Collaboration
 - Current members of project: An Nguyen (Owner)
 - If one desires to join this project, email Mr. Nguyen at an1645584@gmail.com, requesting to join "Decision Dome"
