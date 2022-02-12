@@ -3,7 +3,7 @@
 # Starting Date: 2/11/2022
 
 ## Table of Contents
-1. [Client_Requirements](#client-requires)
+1. [Client Requirements](#client-requirements)
 2. [Specifications](#specs)
 3. [Technologies](#techs)
 4. [Coding Languages](#code)
@@ -31,4 +31,5 @@
 - CSS
 
 ## Collaboration
-Currently, only An Nguyen is working on this project.
+- Current members of project: An Nguyen (Owner)
+- If one desires to join this project, email Mr. Nguyen at an1645584@gmail.com, requesting to join "Decision Dome"
