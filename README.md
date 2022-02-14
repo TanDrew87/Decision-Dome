@@ -1,5 +1,5 @@
 # Decision Dome
-# Self-Made Web Applcation Project by An Nguyen
+# Self-Made Web Application Project by An Nguyen
 # Starting Date: 2/11/2022
 
 ## Table of Contents
@@ -8,6 +8,7 @@
 3. [Technologies](#technologies)
 4. [Coding Languages](#coding-languages)
 5. [Collaboration](#collaboration) 
+6. [Download](#download)
 
 <a name="client-requirements"></a>
 ## Client Requirements
@@ -38,3 +39,9 @@
 ## Collaboration
 - Current members of project: An Nguyen (Owner)
 - If one desires to join this project, email Mr. Nguyen at an1645584@gmail.com, requesting to join "Decision Dome"
+
+<a name="download"></a>
+## To Download This Repository
+1. Install Git on your computer and open the Bash executable file.
+2. Move to the directory where you want the download to happen using "cd folder1/folder2/folder3/etc."
+3. Download repository to the folder using "git clone linkOfRepository other-name". Omit other-name if you want to keep the original name of the repository. 
