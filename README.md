@@ -13,7 +13,7 @@
 
 <a name="client-requirements"></a>
 ## Client Requirements
-"I want a web application that lets me spin a wheel, roll a die, flip a coin, and pick from a deck of cards so that I can make choices from certain numbers of items. For example, if I want to choose between what meat to buy for dinner (beef, pork, chicken, fish), I can input them into a list, spin the wheel, and the wheel can choose one of the choices and make the decision for me. Any other additional decision maker is optional but very much appreciated."
+**"I want a web application that lets me spin a wheel, roll a die, flip a coin, and pick from a deck of cards so that I can make choices from certain numbers of items. For example, if I want to choose between what meat to buy for dinner (beef, pork, chicken, fish), I can input them into a list, spin the wheel, and the wheel can choose one of the choices and make the decision for me. Any other additional decision maker is optional but very much appreciated."**
 
 <a name="specifications"></a>
 ## Specifications
@@ -44,7 +44,7 @@
 
 <a name="download"></a>
 ## To Download This Repository From Github To Local Machine
-1. Install Git on your computer and open the Bash executable file.
+1. Install Git on your computer and open the Bash executable file. Download here: https://git-scm.com/downloads
 2. Move to the directory where you want the download to happen using "cd folder1/folder2/folder3/etc."
 3. Download repository to the folder using "git clone linkOfRepository other-name". Omit other-name if you want to keep the original name of the repository.
 
