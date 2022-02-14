@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+}
+
+#logo {
+    display: block;
+    text-align: center;  
+}
+
+h1.top {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: cyan;
+    text-align: center;
+}
+
+h2.top {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aquamarine;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    color: seashell;
+    font-size: 16px;
+    text-align: center;
+}
+
+#back {
+    text-align: center;  
+    color: lightcyan;
+}

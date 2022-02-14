@@ -9,6 +9,7 @@
 4. [Coding Languages](#coding-languages)
 5. [Collaboration](#collaboration) 
 6. [Download](#download)
+7. [Upload](#upload)
 
 <a name="client-requirements"></a>
 ## Client Requirements
@@ -34,6 +35,7 @@
 ## Coding Languages
 - HTML
 - CSS
+- JavaScript
 
 <a name="collaboration"></a>
 ## Collaboration
@@ -41,7 +43,17 @@
 - If one desires to join this project, email Mr. Nguyen at an1645584@gmail.com, requesting to join "Decision Dome"
 
 <a name="download"></a>
-## To Download This Repository
+## To Download This Repository From Github To Local Machine
 1. Install Git on your computer and open the Bash executable file.
 2. Move to the directory where you want the download to happen using "cd folder1/folder2/folder3/etc."
-3. Download repository to the folder using "git clone linkOfRepository other-name". Omit other-name if you want to keep the original name of the repository. 
+3. Download repository to the folder using "git clone linkOfRepository other-name". Omit other-name if you want to keep the original name of the repository.
+
+<a name="upload"></a>
+## To Upload/Update This Repository From Local Machine To Github
+1. Open the Git Bash and move to the directory of the repository using "cd folder1/folder2/folder3/etc."
+2. Initialize the local directory as a Git repository using "git init -b main". <mark>Skip this step if the repository already exists on Github.</mark>
+3. Stage all the files in the project for commit with "git add ." To unstage a file, use "git reset HEAD filename".
+4. Name the commit those files with "git commit -m 'some note'". To uncommit the project, type "git reset --soft HEAD~1". To recommit, repeat to step 3 first
+5. Type "git remote add origin remote_url" -> "git remote -v" to set and verify the location of the remote repository on Github. <mark>Skip this step if the repository already exists on Github.</mark>
+6. Type "git push origin main" to push the projects and all of its changes to the repository on Github.
+
