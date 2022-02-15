@@ -18,10 +18,15 @@ h2.top {
     color: aquamarine;
     text-align: center;
 }
-
 p {
-    font-family: verdana;
-    color: seashell;
-    font-size: 16px;
     text-align: center;
+}
+a {
+    text-decoration-color:white;
+}
+a:link {
+    color:azure;
+}
+a:hover {
+    color:lightgreen;
 }
