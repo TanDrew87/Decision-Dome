@@ -53,7 +53,7 @@
 1. Open the Git Bash and move to the directory of the repository using "cd folder1/folder2/folder3/etc."
 2. Initialize the local directory as a Git repository using "git init -b main". *Skip this step if the repository already exists on Github.*
 3. Stage all the files in the project for commit with "git add ." To unstage a file, use "git reset HEAD filename".
-4. Name the commit those files with "git commit -m 'some note'". To uncommit the project, type "git reset --soft HEAD~1". To recommit, repeat to step 3 first
+4. Name the commit those files with "git commit -am 'some message'". To uncommit the project, type "git reset --soft HEAD~1". To recommit, repeat to step 3 first
 5. Type "git remote add origin remote_url" -> "git remote -v" to set and verify the location of the remote repository on Github. *Skip this step if the repository already exists on Github.*
 6. Type "git push origin main" to push the projects and all of its changes to the repository on Github.
 7. You'll be asked to enter username and password for the GitHub account tied to the project. Once entered, the push will be completed and the new changes will be uploaded!

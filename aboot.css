@@ -1,32 +1,52 @@
 body {
-    background-color: black;
+    background-color: #282828;
 }
 
 #logo {
     display: block;
-    text-align: center;  
+    text-align: left;  
+    background-color: black;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 h1.top {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: cyan;
+    color: #0094FF;
     text-align: center;
 }
 
 h2.top {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: aquamarine;
+    color: cornflowerblue;
     text-align: center;
 }
 
 p {
     font-family: verdana;
     color: seashell;
-    font-size: 16px;
-    text-align: center;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 #back {
     text-align: center;  
     color: lightcyan;
+}
+
+a:link {
+    color:azure;
+}
+a:visited {
+    color: aqua;
+}
+a:hover {
+    color:lightgreen;
+}
+
+hr {
+    border-color: aqua;
 }

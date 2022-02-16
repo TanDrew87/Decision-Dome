@@ -1,27 +1,51 @@
 body {
+    background-color: #282828;
+}
+
+div {
     background-color: black;
+    height: 130px;
 }
 
 #logo {
     display: block;
-    text-align: center;  
+    text-align: left;  
+    float: left;
+    padding-left: 10px;
+    padding-top: 4px;
 }
 
 h1.top {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: cyan;
+    font-family: Georgia, 'Times New Roman', Times, serif; /*Signature font*/
+    color: #0094FF; /*Signature color*/
+    padding-top: 20px;
+    padding-right: 500px;
     text-align: center;
 }
 
 h2.top {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: aquamarine;
+    color: cornflowerblue;
+    padding-right: 500px;
     text-align: center;
 }
 
 p {
-    font-family: verdana;
-    color: seashell;
-    font-size: 16px;
     text-align: center;
+}
+
+a:link {
+    color:azure;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+a:visited {
+    color: aqua;
+}
+a:hover {
+    color:greenyellow;
+}
+
+hr {
+    border-color: aqua;
 }
