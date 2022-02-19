@@ -1,25 +1,33 @@
 body {
+    margin: 0;
     background-color: #282828;
+}
+
+div {
+    background-color: black;
+    height: 130px;
 }
 
 #logo {
     display: block;
     text-align: left;  
-    background-color: black;
-    padding-left: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    float: left;
+    padding-left: 10px;
+    padding-top: 4px;
 }
 
 h1.top {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #0094FF;
+    font-family: Georgia, 'Times New Roman', Times, serif; /*Signature font*/
+    color: #0094FF; /*Signature color*/
+    padding-top: 20px;
+    padding-right: 500px;
     text-align: center;
 }
 
 h2.top {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: cornflowerblue;
+    padding-right: 500px;
     text-align: center;
 }
 
@@ -27,7 +35,7 @@ p {
     font-family: verdana;
     color: seashell;
     font-size: 18px;
-    text-align: left;
+    text-align: center;
     margin-left: 50px;
     margin-right: 50px;
 }
