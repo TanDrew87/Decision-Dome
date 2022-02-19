@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    background-color: #282828;
+}
+
+.top {
+    background-color: black;
+    height: 130px;
+}
+
+#logo {
+    display: block;
+    text-align: left;  
+    float: left;
+    padding-left: 10px;
+    padding-top: 4px;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #0094FF;
+    padding-top: 20px;
+    padding-right: 500px;
+    text-align: center;
+}
+
+.aboot {
+    position: absolute;
+    top: 45px;
+    right: 50px;
+
+}
+a {
+    font-size: 30px;
+}
+a.link {
+    color:azure;
+    font:200;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a:visited {
+    color: aqua;
+}
+a:hover {
+    color:greenyellow;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: cornflowerblue;
+    padding-right: 500px;
+    text-align: center;
+}
+
+.coiner {
+    text-align: center;
+}
+
+#coin {
+    padding: 30px;
+}
+
+.cloin {
+    background-color: #0094FF; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: darkgreen;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#popback {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    display: none;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#coinpop {
+    background: antiquewhite;
+    width: 450px;
+    height: 450px;
+    top: -65px;
+    border-color: #0094FF;
+    border-radius: 5px;
+    position: relative;
+}
+
+#corn {
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #282828;
+    padding-bottom: 10px;
+}
+
+hr {
+    border-color: aqua;
+}

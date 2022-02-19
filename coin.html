@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="icon" href="logo-thick.png">
+        <meta charset="utf-8">
+        <meta name="description" content="Coin flip page where the user makes a 50/50 decision on a virtual coin">
+        <title>Coin Flip</title>
+        <link rel="stylesheet" type="text/css" href=coin.css>
+    </head>
+
+    <body>
+        <div class="top">
+            <a href="index.html" id="logo"><img id="DD" src="logo-crop.png" height=33% width=33% alt="website logo"></a>
+            <h1>Welcome to Coin Flip</h1>
+            <a href="about.html" class="aboot">About</a>
+            <h2>Make a 50/50 decision here</h2>
+        </div><hr>
+        <div class="coiner">
+            <img src="coin.png" id="coin" height=15% width=15% alt="coin icon"><br>
+            <button type="button" class="cloin" id="flip" onclick="flip()">Flip Coin</button>
+        </div>
+        <div id="popback">
+            <div id="coinpop">
+                <img src="coin.png" id="corn" height=64% width=64% alt="coin icon"><br>
+                <h3>You got <span id="coinside">side</span>!!!</h3>
+                <button type="button" class="cloin" id="done" onclick="flipdone()">COOL</button>
+            </div>
+        </div>
+        <script src="main.js" charset="utf-8"></script>
+    </body>
+</html>
