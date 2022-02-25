@@ -3,6 +3,10 @@ body {
     background-color: #282828;
 }
 
+h2 {
+    font-size: medium;
+}
+
 .top {
     background-color: black;
     height: 130px;
@@ -52,18 +56,48 @@ h2 {
     text-align: center;
 }
 
-.coiner {
+.dicer {
     text-align: center;
 }
+#dieblock {
+    display: block;
+}
+#dierange {
+    display: none;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
 
-#coin {
+#die {
     padding: 30px;
 }
 
-.cloin {
+#alldice {
+    position: absolute;
+    right: 800px;
+}
+
+#roll {
+    position: absolute;
+    left: 800px;
+}
+
+#diebtn {
+    background-color: #0094FF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+    position: absolute;
+    left: 800px;
+}
+
+.drice {
     background-color: #0094FF; 
     font-family: Georgia, 'Times New Roman', Times, serif;
-    border: darkgreen;
     color: white;
     padding: 10px 20px;
     text-align: center;
@@ -84,25 +118,47 @@ h2 {
     align-items: center;
 }
 
-#coinpop {
+#diepop {
     background: antiquewhite;
     width: 450px;
     height: 450px;
-    top: 20px;
+    top: 40px;
     border-color: #0094FF;
     border-radius: 5px;
     position: relative;
 }
 
-#corn {
+#dieres {
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 75px;
     padding-top: 20px;
     padding-bottom: 5px;
+}
+
+#rolnum {
+    display: none;
+    position: relative;
+    top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
 }
 
 h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #282828;
-    padding-bottom: 10px;
+    text-align: center;
+    position: absolute;
+    bottom: 70px;
+    left: 150px;
+}
+
+#done {
+    position: absolute;
+    bottom: 20px;
+    left: 180px;
 }
 
 hr {

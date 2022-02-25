@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="icon" href="logo-thick.png">
+        <meta charset="utf-8">
+        <meta name="description" content="Dice roll page where the user can roll a D4, D6, D8, D12, and D20">
+        <title>Dice Roll</title>
+        <link rel="stylesheet" type="text/css" href=dice.css>
+    </head>
+
+    <body>
+        <div class="top">
+            <a href="index.html" id="logo"><img id="DD" src="logo-crop.png" height=33% width=33% alt="website logo"></a>
+            <h1>Welcome to Dice Roll</h1>
+            <a href="about.html" class="aboot">About</a>
+            <h2>Roll a die to make a numbered decision. Alternatively, choose a custom number range to roll from.</h2>
+        </div><hr>
+        <div class="dicer">
+            <div id="dieblock">
+                <img src="dice135.png" id="die" height=20% width=20% alt="die icon"><br>
+            </div>
+            <div id="dierange">
+                <input type="text" name="minimum" id="minrol" placeholder="Minimum number"/>
+                <input type="text" name="maximum" id="maxrol" placeholder="Maximum number"/>
+            </div>
+            <!--<div class="dicemenu">-->
+                <!--<button onclick=getdice() id="diebtn">Dice</button>-->
+            <select id="alldice" onchange="changedie()">
+                <option value="4die">4-Sided Die</option>
+                <option value="6die" selected>6-Sided Die</option>
+                <option value="8die">8-Sided Die</option>
+                <option value="12die">12-Sided Die</option>
+                <option value="20die">20-Sided Die</option>
+                <option value="custom">Custom</option>
+            </select>
+            <button type="button" class="drice" id="roll" onclick="roll()">Roll Die</button>
+        </div>
+        <div id="popback">
+            <div id="diepop">
+                <img src="6die-1.png" id="dieres" height=65% width=65% alt="die icon"><br>
+                <p id="rolnum">0</p>
+                <h3>You rolled a <span id="dieside">zero</span>!!!</h3>
+                <button type="button" class="drice" id="done" onclick="rolldone()">WOW</button>
+            </div>
+        </div>
+        <script src="main.js" charset="utf-8"></script>
+    </body>
+</html>
